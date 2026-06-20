@@ -47,3 +47,10 @@ public class FactoryMethod {
         n3.send();
     }
 }
+
+
+
+//OUTPUT
+//Sending Email Notification
+//Sending SMS Notification
+//Sending Push Notification
