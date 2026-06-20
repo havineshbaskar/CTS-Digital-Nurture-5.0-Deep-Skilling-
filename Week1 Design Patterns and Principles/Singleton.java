@@ -29,3 +29,10 @@ public class Singleton {
         System.out.println("logger1 == logger2 : " + (logger1 == logger2));
     }
 }
+
+
+//OUTPUT
+//Logger initialized!
+//LOG: First log message
+//LOG: Second log message
+//logger1 == logger2 : true
