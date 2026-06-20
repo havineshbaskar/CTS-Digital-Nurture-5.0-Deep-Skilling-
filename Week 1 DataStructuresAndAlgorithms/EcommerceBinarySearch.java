@@ -46,3 +46,13 @@ public class EcommerceBinarySearch {
         sc.close();
     }
 }
+
+
+
+
+
+//OUTPUT ANALYSIS:
+Binary Search : O(log n)
+Linear Search : O(n)
+Binary Search is more useful and significant for large product datasets.
+Linear Search is generally used for small or unsorted product datasets.
