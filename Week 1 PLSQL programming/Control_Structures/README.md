@@ -1,84 +1,47 @@
-# PLSQL Exercises - Exercise 1: Control Structures (MySQL 8.0)
+# PLSQL Exercises - Exercise 1: Control Structures
 
-## Objective
+## Description
 
-To learn and implement control structures in MySQL using stored procedures and conditional statements (`IF`, `ELSEIF`, and `ELSE`).
+This project contains simple MySQL stored procedures to understand how control structures work. The programs use `IF`, `ELSEIF`, and `ELSE` statements to make decisions based on the input provided by the user.
 
-## Software Requirements
-
-* MySQL Server 8.0
-* MySQL 8.0 Command Line Client or MySQL Workbench
-
-## Programs Included
+## Programs
 
 ### 1. CheckNumber
 
-Determines whether the given number is:
-
-* Positive
-* Negative
-* Zero
-
-**Example**
-
-* Input: `10`
-* Output: `Positive Number`
-
----
+Checks whether a number is positive, negative, or zero.
 
 ### 2. CheckGrade
 
-Determines the grade based on the marks entered.
+Displays the student's grade based on the marks entered.
 
-**Grading Criteria**
-
-* Marks ≥ 90 → Grade A
-* Marks ≥ 75 → Grade B
-* Marks ≥ 50 → Grade C
-* Marks < 50 → Fail
-
-**Example**
-
-* Input: `82`
-* Output: `Grade B`
-
----
+* 90 and above – Grade A
+* 75 to 89 – Grade B
+* 50 to 74 – Grade C
+* Below 50 – Fail
 
 ### 3. CheckVoting
 
-Determines whether a person is eligible to vote.
+Checks whether a person is eligible to vote based on age.
 
-**Criteria**
+* Age 18 or above – Eligible to Vote
+* Below 18 – Not Eligible to Vote
 
-* Age ≥ 18 → Eligible to Vote
-* Age < 18 → Not Eligible to Vote
+## Requirements
 
-**Example**
-
-* Input: `20`
-* Output: `Eligible to Vote`
-
-## Concepts Used
-
-* Stored Procedures
-* IF Statement
-* ELSEIF Statement
-* ELSE Statement
-* Input Parameters
-* MySQL Delimiters
+* MySQL Server 8.0
+* MySQL Command Line Client or MySQL Workbench
 
 ## How to Run
 
-1. Open MySQL 8.0 Command Line Client or MySQL Workbench.
-2. Create and select the database.
-3. Execute the SQL script.
-4. Call the required stored procedure using the `CALL` statement.
-5. View the output.
+1. Open MySQL.
+2. Create a database and select it using the `USE` command.
+3. Run the SQL file.
+4. Execute the required procedure using the `CALL` statement.
 
-## Learning Outcomes
+## Output
 
-* Understood the use of control structures in MySQL.
-* Learned to create and execute stored procedures.
-* Implemented decision-making using conditional statements.
-* Gained hands-on experience with MySQL 8.0 stored programs.
+The procedures display the result based on the value entered by the user.
 
+## Conclusion
+
+This exercise helped me understand how to create stored procedures and use conditional statements in MySQL to perform basic decision-making operations.
