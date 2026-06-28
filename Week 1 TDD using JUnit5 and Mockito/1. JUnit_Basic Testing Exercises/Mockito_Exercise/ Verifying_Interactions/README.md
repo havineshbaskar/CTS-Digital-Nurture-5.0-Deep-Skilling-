@@ -48,7 +48,3 @@ Errors: 0
 - Interaction Verification
 - `verify()` Method
 - Arrange-Act-Assert (AAA) Pattern
-
-## Author
-
-Havinesh B
