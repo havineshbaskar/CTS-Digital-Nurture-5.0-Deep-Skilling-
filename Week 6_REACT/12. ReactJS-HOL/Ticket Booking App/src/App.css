@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  background-color: white;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 34px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.note {
+  color: red;
+  font-size: 24px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
