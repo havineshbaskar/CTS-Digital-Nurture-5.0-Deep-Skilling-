@@ -1,0 +1,26 @@
+cd GitDemo
+
+pwd
+
+echo "This is log file" > error.log
+
+mkdir log
+
+ls -la
+
+git status
+
+git add .gitignore
+
+git commit -m "Add .gitignore to ignore log files"
+
+git push origin main
+
+
+
+
+
+Contents of .gitignore:
+
+                          log/
+                          *.log
