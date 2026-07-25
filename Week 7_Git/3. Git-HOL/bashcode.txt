@@ -1,0 +1,18 @@
+cd "/c/Users/HAVINESH D/GitDemo"
+git branch
+git branch GitNewBranch
+git branch
+git checkout GitNewBranch
+echo This is Git HOL-3 Branch > branch.txt
+git status
+git add .
+git commit -m "Added branch.txt in GitNewBranch"
+git status
+git checkout main
+git diff main GitNewBranch
+git difftool main GitNewBranch
+git merge GitNewBranch
+git log --oneline --graph --decorate
+git branch -d GitNewBranch
+git branch
+git status
